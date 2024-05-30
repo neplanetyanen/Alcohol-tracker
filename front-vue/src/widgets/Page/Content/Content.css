@@ -1,0 +1,28 @@
+.content {
+	min-height: 120vh;
+	margin: auto;
+	border-right: var(--border-m) solid var(--qwarz-main-secondary);
+	border-left: var(--border-m) solid var(--qwarz-main-secondary);
+	padding: 30px;
+}
+
+.home-bckgr {
+	max-width: 1150px;
+	background: var(--qwarz-background-primary);
+}
+
+.auth-bckgr {
+	max-width: 100wh;
+	background: var(--qwarz-background-secondary);
+	border-right: none;
+	border-left: none;
+}
+
+.content-bckgr {
+	max-width: 1150px;
+	background: var(--qwarz-background-tertiary);
+}
+.edit-bckgr {
+	max-width: 1150px;
+	background: var(--qwarz-background-quintuple);
+}

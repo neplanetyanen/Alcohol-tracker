@@ -1,0 +1,21 @@
+.count-container {
+	height: 80vh;
+}
+
+.left-side {
+	width: 50%;
+	height: 100%;
+}
+.right-side {
+	width: 50%;
+	height: 100%;
+	padding: 20px 20px 20px 50px;
+}
+
+.count {
+	width: 450px;
+}
+
+.error-alcohol-percentage {
+	height: 72px;
+}

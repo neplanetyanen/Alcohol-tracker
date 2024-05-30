@@ -1,0 +1,6 @@
+.footer {
+	padding: 15px;
+	width: 100%;
+	background-color: var(--qwarz-main-primary);
+	border-top: var(--border-m) solid var(--qwarz-main-secondary);
+}

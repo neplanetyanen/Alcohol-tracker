@@ -1,0 +1,14 @@
+.home-bckgr {
+    background: var(--qwarz-background-primary);
+}
+
+.auth-bckgr {
+    background: var(--qwarz-background-secondary);
+}
+
+.content-bckgr {
+    background: var(--qwarz-background-tertiary);
+}
+.edit-bckgr {
+    background: var(--qwarz-background-quintuple);
+}

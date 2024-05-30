@@ -1,0 +1,83 @@
+:root {
+	--font-family-main: 'Alumni Sans', sans-serif;
+	--font-size-xs: 24px;
+	--font-line-xs: 24px;
+	--font-size-s: 32px;
+	--font-line-s: 40px;
+	--font-size-m: 40px;
+	--font-line-m: 50px;
+	--font-size-l: 48px;
+	--font-line-l: 48px;
+	--font-size-xl: 72px;
+	--font-line-xl: 72px;
+	--font-size-xxl: 96px;
+	--font-line-xxl: 96px;
+
+	/* Font */
+	--font-xs: var(--font-size-xs) / var(--font-line-xs) var(--font-family-main);
+	--font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+	--font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+	--font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+	--font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+	--font-xxl: var(--font-size-xxl) / var(--font-line-xxl)
+		var(--font-family-main);
+
+	/* Main-color */
+	--qwarz-main-primary-value: 255 255 255;
+	--qwarz-main-secondary-value: 0 0 0;
+	--qwarz-main-tertiary-value: 202 200 200;
+	--qwarz-main-quaternary-value: 204 204 204;
+
+	/* Content-color */
+	--qwarz-content-primary-value: 217 195 246;
+	--qwarz-content-secondary-value: 177 117 255;
+	--qwarz-content-tertiary-value: 127 253 208;
+	--qwarz-content-quaternary: 107 218 179;
+	--qwarz-content-quintuple: 148 91 223;
+
+	/* Background */
+	--qwarz-background-primary-value: 217 195 246;
+	--qwarz-background-secondary-value: 270deg, #fff 50%, #f4f4f4 50%;
+	--qwarz-background-tertiary-value: 90deg, #fff 45.78%, #e0c8ff 55.19%;
+	--qwarz-background-quaternary-value: 252 249 255;
+	--qwarz-background-quintuple-value: 222 197 255 0.4;
+	/* Main-color */
+	--qwarz-main-primary: rgb(255 255 255);
+	--qwarz-main-secondary: rgb(0 0 0);
+	--qwarz-main-tertiary: rgb(202 200 200);
+	--qwarz-main-quaternary: rgb(204 204 204);
+
+	/* Content-color */
+	--qwarz-content-primary: rgb(217 195 246);
+	--qwarz-content-secondary: rgb(177 117 255);
+	--qwarz-content-tertiary: rgb(127 253 208);
+	--qwarz-content-quaternary: rgb(107 218 179);
+	--qwarz-content-quintuple: rgb(148, 91, 223);
+
+	/* Background */
+	--qwarz-background-primary: rgb(217 195 246);
+	--qwarz-background-secondary: linear-gradient(270deg, #fff 50%, #f4f4f4 50%);
+	--qwarz-background-tertiary: linear-gradient(
+		90deg,
+		#fff 45.78%,
+		#e0c8ff 55.19%
+	);
+	--qwarz-background-quaternary: rgb(252 249 255);
+	--qwarz-background-quintuple: rgb(222 197 255 0.4);
+
+	/* Borders */
+	--border-m: 1px;
+	--border-l: 2px;
+	--border-xl: 14px;
+	--border-xxl: 80px;
+
+	/* Shadows */
+	--shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	/* Indexes */
+	--not-content-z-index: 999;
+
+	/* Transition */
+	--transition-speed-fast: 0.2s;
+	--transition-speed-medium: 0.75s;
+	--transition-speed-slow: 1s;
+}

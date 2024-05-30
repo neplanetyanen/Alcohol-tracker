@@ -1,0 +1,29 @@
+.track-input-container {
+	height: 80vh;
+}
+
+.left-side {
+	width: 50%;
+	height: 100%;
+}
+.right-side {
+	width: 50%;
+	height: 100%;
+	padding: 150px 20px 20px 50px;
+}
+
+.track-input {
+	width: 384px;
+}
+
+.drink-select {
+	z-index: var(--not-content-z-index);
+}
+
+.volume-select {
+	width: 125px;
+}
+
+.btn-track {
+	margin-top: 20px;
+}

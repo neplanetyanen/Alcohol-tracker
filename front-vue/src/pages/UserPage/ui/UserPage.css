@@ -1,0 +1,16 @@
+.user-container {
+	height: 80vh;
+}
+
+.left-side {
+	width: 50%;
+	height: 100%;
+}
+.right-side {
+	width: 50%;
+	height: 100%;
+}
+
+.statistic {
+	width: 450px;
+}

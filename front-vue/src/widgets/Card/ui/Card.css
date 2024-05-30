@@ -1,0 +1,12 @@
+.card {
+	width: 455px;
+
+	background-color: var(--qwarz-background-quaternary);
+	padding: 15px;
+	border-radius: var(--border-xl);
+	border: var(--border-m) solid var(--qwarz-main-quaternary);
+}
+
+.count-card {
+	border-bottom: black solid 1px;
+}

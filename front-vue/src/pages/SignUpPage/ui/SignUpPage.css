@@ -1,0 +1,14 @@
+.signup-container {
+    height: 100vh;
+}
+
+.left-side {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+.right-side {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}

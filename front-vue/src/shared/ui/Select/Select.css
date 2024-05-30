@@ -1,0 +1,71 @@
+.custom-select {
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	background-color: #fff;
+	border-radius: 5px;
+	font-size: var(--font-size-s);
+	line-height: var(--font-line-s);
+}
+
+.full-width {
+	width: 100%;
+}
+
+.default-option,
+.selected-option {
+	padding: 10px;
+	border: var(--border-m) solid var(--qwarz-main-quaternary);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+}
+.default-option {
+	color: var(--qwarz-main-secondary);
+}
+
+.selected-option {
+	color: var(--qwarz-main-tertiary);
+	font-style: italic;
+}
+
+.select-polygon {
+	transition: var(--transition-speed-fast);
+}
+
+.polygon-container {
+	width: 20px;
+	height: 20px;
+}
+
+.selected-option-container {
+	width: 270px;
+}
+
+.default-option:hover .select-polygon {
+	transform: translateY(5px);
+}
+
+.dropdown {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border: var(--border-m) solid var(--qwarz-main-quaternary);
+	border-top: none;
+	max-height: 250px;
+	overflow-y: scroll;
+	border-radius: 5px;
+}
+
+.dropdown-option {
+	padding: 10px;
+	cursor: pointer;
+	transition: var(--transition-speed-fast);
+}
+
+.dropdown-option:hover {
+	background-color: #f0f0f0;
+}

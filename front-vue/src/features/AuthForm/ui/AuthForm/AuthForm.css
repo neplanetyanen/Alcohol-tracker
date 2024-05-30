@@ -1,0 +1,22 @@
+.auth-form {
+    padding: 0px 100px 0px 0px;
+}
+
+.link-signup {
+    transition: var(--transition-speed-fast);
+}
+
+.link-signup:hover {
+    color: var(--qwarz-content-secondary);
+    cursor: pointer;
+}
+
+.auth-btns {
+    min-height: 50px;
+    min-width: 610px;
+    justify-content: start;
+}
+
+.auth-btns.selected-btn {
+    background-color: var(--qwarz-main-tertiary);
+}

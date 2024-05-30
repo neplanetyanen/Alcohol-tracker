@@ -1,0 +1,30 @@
+.header {
+	width: 100%;
+	background-color: var(--qwarz-main-primary);
+	border-bottom: var(--border-m) solid var(--qwarz-main-secondary);
+}
+
+.common-header {
+	min-width: 1150px;
+	margin: auto;
+	padding: 6px 20px;
+	border-left: var(--border-m) solid var(--qwarz-main-secondary);
+	border-right: var(--border-m) solid var(--qwarz-main-secondary);
+}
+
+.user-btn {
+	cursor: pointer;
+}
+
+.user-btn.selected {
+	text-decoration: underline;
+}
+
+.user-btn:hover {
+	color: var(--qwarz-content-secondary);
+	cursor: pointer;
+}
+
+.icon {
+	cursor: pointer;
+}

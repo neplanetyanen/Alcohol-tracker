@@ -1,0 +1,36 @@
+.information {
+	width: 500px;
+}
+
+.information-input {
+	width: 300px;
+}
+
+.numerical-input {
+	width: 100px;
+	text-align: center;
+}
+
+.information-select-nationality {
+	width: 300px;
+	z-index: 5;
+}
+
+.information-select-body-type {
+	width: 300px;
+	z-index: 4;
+}
+
+.information-select-allergies {
+	width: 300px;
+	z-index: 3;
+}
+
+.information-select-goal {
+	width: 300px;
+	z-index: 2;
+}
+
+.error-msg-update {
+	padding-left: 200px;
+}

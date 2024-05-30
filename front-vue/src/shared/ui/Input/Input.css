@@ -1,0 +1,45 @@
+input {
+	background: var(--qwarz-main-primary);
+	border: none;
+	font: var(--font-s);
+	font-weight: 400;
+	outline: none;
+	color: var(--qwarz-main-secondary);
+	border-radius: 5px;
+	padding: 10px;
+	border: var(--border-m) solid var(--qwarz-main-quaternary);
+	width: inherit;
+	text-align: inherit;
+}
+
+input::placeholder {
+	color: var(--qwarz-main-tertiary);
+	font-style: italic;
+}
+
+.border-error input {
+	border: var(--border-l) solid var(--qwarz-content-secondary);
+	border-radius: 5px;
+}
+
+.input-container,
+.border-error {
+	display: inline-flex;
+	gap: 16px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.disabled {
+	cursor: not-allowed;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: none;
+	width: 36px;
+	height: 28px;
+}
